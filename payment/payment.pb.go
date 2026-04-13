@@ -4,7 +4,7 @@
 // 	protoc        v7.34.1
 // source: payment/payment.proto
 
-package protos
+package payment
 
 import (
 	_ "google.golang.org/genproto/googleapis/api/annotations"
@@ -147,7 +147,7 @@ const file_payment_payment_proto_rawDesc = "" +
 	"\x06status\x18\x02 \x01(\tR\x06status\x12\x14\n" +
 	"\x05error\x18\x03 \x01(\tR\x05error2v\n" +
 	"\x0ePaymentService\x12d\n" +
-	"\x0eProcessPayment\x12\x17.payment.PaymentRequest\x1a\x18.payment.PaymentResponse\"\x1f\x82\xd3\xe4\x93\x02\x19:\x01*\"\x14/v1/payments/processB\x1bZ\x19github.com/blazee5/protosb\x06proto3"
+	"\x0eProcessPayment\x12\x17.payment.PaymentRequest\x1a\x18.payment.PaymentResponse\"\x1f\x82\xd3\xe4\x93\x02\x19:\x01*\"\x14/v1/payments/processB#Z!github.com/blazee5/protos/paymentb\x06proto3"
 
 var (
 	file_payment_payment_proto_rawDescOnce sync.Once

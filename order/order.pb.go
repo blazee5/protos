@@ -4,7 +4,7 @@
 // 	protoc        v7.34.1
 // source: order/order.proto
 
-package protos
+package order
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -167,7 +167,7 @@ const file_order_order_proto_rawDesc = "" +
 	"\n" +
 	"updated_at\x18\x06 \x01(\v2\x1a.google.protobuf.TimestampR\tupdatedAt2\\\n" +
 	"\fOrderService\x12L\n" +
-	"\x17SubscribeToOrderUpdates\x12\x13.order.OrderRequest\x1a\x18.order.OrderStatusUpdate\"\x000\x01B\x1bZ\x19github.com/blazee5/protosb\x06proto3"
+	"\x17SubscribeToOrderUpdates\x12\x13.order.OrderRequest\x1a\x18.order.OrderStatusUpdate\"\x000\x01B!Z\x1fgithub.com/blazee5/protos/orderb\x06proto3"
 
 var (
 	file_order_order_proto_rawDescOnce sync.Once

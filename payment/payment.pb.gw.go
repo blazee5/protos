@@ -2,11 +2,11 @@
 // source: payment/payment.proto
 
 /*
-Package protos is a reverse proxy.
+Package payment is a reverse proxy.
 
 It translates gRPC into RESTful JSON APIs.
 */
-package protos
+package payment
 
 import (
 	"context"

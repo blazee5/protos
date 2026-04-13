@@ -4,7 +4,7 @@
 // - protoc             v7.34.1
 // source: payment/payment.proto
 
-package protos
+package payment
 
 import (
 	context "context"
